@@ -22,6 +22,7 @@ int foundIndexCounter=0;
 int foundCounter=0;
 int studentIndexCounter=0;
 int arrayCounter[100]={0};
+
 //These are the functions we are using in this program.
 bool ifalpha(char a);
 bool isdigit(char b);
@@ -50,9 +51,11 @@ void deleteStudent(string stdNamesList[] , string stdCourseList[][100] , string 
 void registerCourse(string stdRegNoList[] , string courseCodeList[] , string regNo, string courseCode , string stdCourseList[][100]);
 void unRegister(string stdRegNoList[] , string courseCodeList[] , string regNo, string courseCode , string stdCourseList[][100]);
 void viewAllStudents(string stdRegNoList[] , string stdNamesList[] , string stdCourseList[][100]);
+
 //*****************************************************************************************************************************************************************
 //Main starts from here.
 //*****************************************************************************************************************************************************************
+
 int main()
 {
 	//declaring variables & strings we further use in our function.
