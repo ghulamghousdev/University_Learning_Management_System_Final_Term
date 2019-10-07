@@ -6,12 +6,15 @@
 //SECTION A
 //UNIVERSITY OF ENGINEERING & TEHNOLOGY LAHORE
 //***************************************************************************************************************************************************************
+
+
 //Header Files
 #include <iostream>
 #include <string>
 #include <iomanip>
 #include <fstream>
 #include <cmath>
+
 using namespace std;
 int indexCounter = 0;
 int position=0;
